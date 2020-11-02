@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@page import = "java.util.*"%>
 <%@page import = "com.cardinfo.web.entities.DebitCardInfo" %>
-<%@page import = "com.cardinfo.web.entities.Viewdebitcard" %>
+
 <%@page import="java.util.ArrayList"%>
 
 <!DOCTYPE html>
@@ -13,6 +13,9 @@
 </head>
 <body>
 <h1>Debit Card Info</h1>
+<table>
+<tr>
+<td>
       <table border ="1" width="500" align="left"> 
          <tr bgcolor="00FF7F"> 
           <th><b>Debit Card Number</b></th> 
@@ -37,5 +40,23 @@
             </tr> 
             <%}%> 
         </table>  
+ </td>
+</tr>        
+ <tr>
+<td>
+<table>
+        <tr>
+        <td style="width:250px;">
+        <a href="#">Report Loss of Card</a>
+        </td>
+        <td>
+        <a href="#">Reset PIN</a>
+        </td>
+        </tr>
+        </table>
+</td>
+</tr>
+</table>      
+        
 </body>
 </html>

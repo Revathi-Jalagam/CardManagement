@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@page import = "java.util.*"%>
 <%@page import = "com.cardinfo.web.entities.CreditCardInfo" %>
-<%@page import = "com.cardinfo.web.entities.Viewdebitcard" %>
+
 <%@page import="java.util.ArrayList"%>    
     
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
 <tr>
 <td>
 <table border ="1" width="500" align="left"> 
-         <tr bgcolor="blue"> 
+         <tr bgcolor="cyan"> 
           <th><b>Credit Card Number</b></th> 
           <th><b>Expiry</b></th> 
           <th><b>Credit Limit</b></th>
