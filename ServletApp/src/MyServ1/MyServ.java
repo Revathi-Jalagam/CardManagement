@@ -34,7 +34,7 @@ public class MyServ extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 		writer.write("<h1>IBS HomePage</h1>");
 		ArrayList<CreditCardInfo> ccInfo = new ArrayList<CreditCardInfo>();
-		ccInfo.add(new CreditCardInfo("12345","01/01/2021","50000","Active"));
+		ccInfo.add(new CreditCardInfo("12345","Visa","01/01/2021","50000","Active"));
 		request.setAttribute("ccdata", ccInfo);
 		//Creating a RequestDispatcher object to dispatch 
 		// the request the request to another resource 

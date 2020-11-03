@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Card Management</title>
+<title>Insert title here</title>
 </head>
 <body>
-<hr/>
-<a href="ViewDebitServ">Debit Cards</a>
-<a href="CCInfo">Credit Cards</a>
+
 </body>
 </html>
